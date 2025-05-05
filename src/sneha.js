@@ -57,18 +57,18 @@ const Sne = () =>{
                     <input type="text" name="address" placeholder="Enter your address" required/><br/><br/>
                     <label>City</label><br/>
                     <select>
-                        <option value="" hidden>Please select your city</option>
-                        <option value="Coimbatore">Coimbatore</option>
-                        <option value="Dindigul">Dindigul</option>
-                        <option value="Kallakurichi">Kallakurichi</option>
-                        <option value="KanyaKumari">KanyaKumari</option>
-                        <option value="Madurai">Madurai</option>
-                        <option value="Nagapattinam">Nagapattinam</option>
-                        <option value="Pollachi">Pollachi</option>
-                        <option value="Puducherry">Puducherry</option>
-                        <option value="Salem">Salem</option>
-                        <option value="Tiruppur">Tiruppur</option>
-                        <option value="Trichy">Trichy</option>
+                      <option value="" hidden>Please select your city</option>
+                        <option value="nadiad">NADIAD</option>
+                        <option value="anand">ANAND</option>
+                        <option value="amreli">AMRELI</option>
+                        <option value="bharuch">BHARUCH</option>
+                        <option value="vadodara">VADODARA</option>
+                        <option value="rajkot">RAJKOT</option>
+                        <option value="jamnagar">JAMNAGAR</option>
+                        <option value="bhavnagar">BHAVNAGAR</option>
+                        <option value="ahmedabad">AHMEDABAD</option>
+                        <option value="gandhinagar">GANDHINAGAR</option>
+                        <option value="mehsana">MEHSANA</option>
                     </select><br/><br/>
                     <label>Country</label><br/>
                     <select>
@@ -87,7 +87,7 @@ const Sne = () =>{
                     <label>State</label><br/>
                     <select>
                         <option value="" hidden>Please select your state</option>
-                        <option value="Assam">Assam</option>
+                        <option value="Gujarat">Assam</option>
                         <option value="Bengalore">Bengalore</option>
                         <option value="Delhi">Delhi</option>
                         <option value="Goa">Goa</option>
@@ -99,18 +99,15 @@ const Sne = () =>{
                     </select><br/><br/>
                     <label>College<span>*</span></label><br/>
                     <select>
-                        <option value="" hidden>Please select your college</option>
-                        <option value="Sri Achievers Institute Of Engineering and Technology">Sri Achievers Institute Of Engineering and Technology,Coimbatore</option>
-                        <option value="PSNA College Of Engineering and Technology">PSNA College Of Engineering and Technology,Dindigul</option>
-                        <option value="A.K.T. Memorial College Of Engineering and Technology">A.K.T. Memorial College Of Engineering and Technology</option>
-                        <option value="Marthandam College Of Engineering">Marthandam College Of Engineering,KanyaKumari</option>
-                        <option value="Thiagarajar College Of Engineering">Thiagarajar College Of Engineering,Madurai</option>
-                        <option value="A.V.C College Of Engineering">A.V.C College Of Engineering,Nagapattinam</option>
-                        <option value="Dr.Mahalingam College Of Engineering and Technology">Dr.Mahalingam College Of Engineering and Technology,Pollachi</option>
-                        <option value="Pondicherry Engineering College">Pondicherry Engineering College,Puducherry</option>
-                        <option value="Sona College Of Technology">Sona College Of Technology,Salem</option>
-                        <option value="Sasurie College Of Engineering">Sasurie College Of Engineering,Tiruppur</option>
-                        <option value="National Institute Of Technology">National Institute Of Technology,Tirchy</option>
+                       <option value="" hidden>Please select your college</option>
+                        <option value="cspit">CSPIT</option>
+                        <option value="depstar">DEPSTAR</option>
+                        <option value="iiim">IIIM</option>
+                        <option value="rpcp">RPCP</option>
+                        <option value="arip">ARIP</option>
+                        <option value="mtin">MTIN</option>
+                        <option value="cips">CIPS</option>
+                        <option value="pdpias">PDPIAS</option>
                       
                     </select><br/><br/>
                     <label>Events<span>*</span></label><br/>
