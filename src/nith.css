@@ -1,0 +1,644 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: century;
+  
+}
+.container img{
+  height: 100px;
+  width: 165px;
+ 
+}
+.container{
+  display: flex;
+  background-color: rgb(95, 120, 130);
+  color: white;
+  -webkit-animation: colorchange 20s infinite;
+  animation: colorchange 20s infinite;
+  justify-content: center;
+  text-align: center;
+}
+@keyframes colorchange{
+  0%{
+      background-color: rgb(255, 0, 153);
+  }
+  20%{
+      background-color: red(255, 0, 153);
+  }
+  40%{
+      background-color: rgb(240, 233, 9);
+  }
+  60%{
+      background-color: rgb(8, 0, 255);
+  }
+  80%{
+      background-color: rgb(232, 14, 232);
+  }
+  100%{
+      background-color: rgb(255, 0, 153);
+  }
+}
+.header{
+  min-height: 200vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(5, 11, 35, 0.7),rgba(4,9,30,0.7));
+  background-position: center;
+  background-size: 300px 1000px; 
+}
+.header.quiz--narrow{
+  min-height: 240vh;
+}
+.header.koiya--narrow{
+  min-height: 240vh; 
+}
+.header.oorampo--narrow{
+  min-height: 340vh; 
+  ;
+}
+nav{
+  display: flex;
+  padding: 2% 2%;
+  justify-content:space-between;
+  align-items: center;
+}
+nav img{
+  width: 150px;
+}
+.nav-links{
+  flex: 5;
+  text-align: center;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 15px;
+  position: relative;
+  left: -2%;
+  margin-left: 60px;
+}
+.nav-links ul li a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+.workshop{
+ height: 45%;
+ width: 25%;
+ top:33%;
+ left:10%;
+ position: absolute;
+ border-radius: 22%;
+}
+.starname{
+  height: 7%;
+ width: 7%;
+ top:40%;
+ left:2%;
+ position: absolute;
+ border-radius: 22%;
+ top: 2%;
+}
+.description{
+  color: #fff;
+  text-align: center;
+  padding: 28px;
+  position: absolute;
+  left:40%;
+  top: 32%;
+  font-family: 'Kameron';
+  font-size:25px; 
+  width: 240.2px;
+  height: 200px;
+  animation: 3s anim-description ease infinite;
+}
+  @keyframes anim-description {
+    0% {
+     opacity: 0;
+     transform: translateY(80%);
+    }
+    20% {
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    }
+    .civil{
+      
+      height: 45%;
+      width: 25%;
+      top:95%;
+      left:35%;
+      position: absolute;
+      border-radius: 22%;
+     }
+    .civilname{
+      color: white;
+      text-align: center;
+  padding: 28px;
+  position: absolute;
+  left:65%;
+  top: 90%;
+  font-family: 'Kameron';
+  font-size:25px; 
+  width: 240.2px;
+  height: 46.17px;
+  animation: 3s anim-civilname ease infinite;
+  }
+  @keyframes anim-civilname {
+    0% {
+     opacity: 0;
+     transform: translateY(80%);
+    }
+    20% {
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    }
+    .vada{
+margin-right: 350px;
+font-size: 20px;
+background-color:beige;
+border-radius: 20px;
+position: absolute;
+top: 190%;
+  left: 80%;
+  border-width: 0px;
+  height: 5%;
+  width: 10%; 
+}
+.vada.vada--narrow{
+  top:225%;
+  left:80%;
+}
+   .eeeworkman{
+height: 45%;
+ width: 25%;
+top:150%;
+left:14%;
+position: absolute;
+border-radius: 22%; }
+.current{
+color: white;
+ text-align: center;
+padding: 28px;
+position: absolute;
+left:40%;
+top: 149%;
+font-family: 'Kameron';
+font-size:25px; 
+width: 240.2px;
+height: 46.17px;
+animation: 3s anim-current ease infinite;
+}
+@keyframes anim-current{
+  0% {
+   opacity: 0;
+   transform: translateY(80%);
+  }
+  20% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+   transform: translateY(0%);
+  }
+  100% {
+   opacity: 1;
+   transform: translateY(0%);
+  }
+  }
+  .nachathiram {
+    height: 7%;
+   width: 7%;
+   top:75%;
+   left:2%;
+   position: absolute;
+   border-radius: 22%;
+   top: 2%;
+  }
+  .hand{
+    height:45%;
+   width: 35%;
+   top:36%;
+   left:10%;
+   position: absolute;
+   border-radius: 22%;
+   animation: 3s anim-hand ease infinite;
+  }
+  @keyframes anim-hand{
+    0% {
+     opacity: 0;
+     transform: translateY(80%);
+    }
+    20% {
+     opacity: 0;
+    }
+    50% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+    }
+  .marker {
+ color: white;
+text-align: center;
+padding: 28px;
+position: absolute;
+left:65%;
+top:36%;
+font-family: 'Kameron';
+font-size:25px; 
+width: 240.2px;
+height: 46.17px;
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+ margin-left: 10%;
+ width: 240.2px;
+}
+to {
+margin-left: 0%;
+width: 240.2px;
+height: 46.17px;
+}
+}
+.vaaipechu{
+height:45%;
+width: 35%;
+top:96%;
+left:55%;
+position: absolute;
+border-radius: 22%;
+  }
+ .solliparu{
+height:30%;
+width: 35%;
+top:96%;
+left:10%;
+color: white;
+text-align: center;
+padding: 28px;
+position: absolute;
+font-family: 'Kameron';
+font-size:25px; 
+width: 240.2px;
+height: 46.17px;
+animation: 3s anim-solliparu ease infinite;
+}
+@keyframes anim-solliparu{
+  0% {
+   opacity: 0;
+   transform: translateY(80%);
+  }
+  20% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+   transform: translateY(0%);
+  }
+  100% {
+   opacity: 1;
+   transform: translateY(0%);
+  }
+  }
+  .thalaipu{
+  font-size: 150%;
+  top:90%;
+  left:16%;
+  position: absolute;
+  color: white;
+  font-family: 'Kameron';
+  }
+  .yosipa{
+  height:39%;
+  width: 30%;
+  top:160%;
+  left:10%;
+  position: absolute;
+  border-radius: 22%;
+  }
+  .senjukaami{
+  height:30%;
+  width: 70%;
+  top:150%;
+  left:55%;
+  color: white;
+  text-align: center;
+  padding: 28px;
+  position: absolute;
+  font-family: 'Kameron';
+  font-size:25px; 
+  width: 240.2px;
+  height: 46.17px;
+  animation: 3s anim-solliparu ease infinite;
+    }
+    @keyframes anim-solliparu{
+      0% {
+       opacity: 0;
+       transform: translateY(80%);
+      }
+      20% {
+       opacity: 0;
+      }
+      50% {
+opacity: 1;
+ transform: translateY(0%);
+}
+ 100% {
+opacity: 1;
+transform: translateY(0%);
+ }
+ }
+.seimurai{
+height:45%;
+width: 35%;
+top:36%;
+left:10%;
+position: absolute;
+border-radius: 22%;
+}
+.seimuraiapdina{
+height:30%;
+width: 70%;
+top:33%;
+left:60%;
+color: white;
+text-align: center;
+padding: 28px;
+position: absolute;
+font-family: 'Kameron';
+font-size:25px; 
+width: 240.2px;
+height: 46.17px;
+animation: 3s anim-solliparu ease infinite; }
+@keyframes anim-solliparu{
+0% {
+ opacity: 0;
+transform: translateY(80%);
+ }
+ 20% {
+opacity: 0;
+ }
+50% {
+opacity: 1;
+transform: translateY(0%);
+}
+100% {
+opacity: 1;
+transform: translateY(0%);
+}
+}
+.vivasayam{
+height:45%;
+width: 35%;
+top:125%;
+left:60%;
+position: absolute;
+border-radius: 22%;
+}
+.payir{
+color: white;
+text-align: center;
+padding: 28px;
+position: absolute;
+left:15%;
+top:120%;
+font-family: 'Kameron';
+font-size:25px; 
+width: 240.2px;
+height: 46.17px;
+animation-duration: 3s;
+animation-name: slidein;
+animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+ margin-left: 10%;
+ width: 240.2px;
+}
+to {
+margin-left: 0%;
+width: 240.2px;
+height: 46.17px;
+}
+}
+.prize{
+left:43%;
+top:140%;
+position: absolute;
+font-size:135%
+}
+.payir.payir--narrow{
+left:69%;
+top:178%;
+}
+.vivasayam.vivasayam--narrow{
+  top:185%;
+  left:12%;
+}
+.vada.koiya--narrow{
+  top: 240%;
+}
+.vada.home--narrow{
+  top: 240%;
+}
+.goal{
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  height: 150%;
+  width: 50%;
+  animation: 2s anim-goal ease infinite;
+}
+@keyframes anim-goal{
+  0% {
+   opacity: 0;
+   transform: slidein(80%);
+  }
+  20% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+   transform:slidein(0%);
+  }
+  100% {
+   opacity: 1;
+   transform: slidein(0%);
+  }
+  }
+  .vaathi
+  {
+    top: 50%;
+    left: 55%;
+    height: 60%;
+    width: 40%;
+    position: absolute;
+  }
+  .details{
+    height:2%;
+    width: 30%;
+    position: absolute;
+    top: 115%;
+    left: 60%;
+    color: #fff;
+  }
+  .theruchuko{
+    height: 115%;
+    width: 60%;
+    position: absolute;
+    top: 280%;
+    left: 20%;
+    font-size: 150%;
+    color: bisque;
+    text-align: center;
+  }
+  .admission{
+    position: absolute;
+    top: 200%;
+    left:10%;
+    height: 60%;
+    width: 85%;
+    position: absolute;
+  }
+  *{
+    padding: 0px;
+    margin: 0px;
+    font-family: century;
+}
+body{
+   
+    box-sizing: border-box;
+}
+div.main{
+    width: 400px;
+    top: 20%;
+    left: 50%;
+    margin: auto;
+    bottom: -30%;
+}
+.register h2{
+    text-align: center; 
+}
+.registerinput radio{
+    height: 15px;
+}
+.register{
+    padding: 2rem;
+    width: 26rem;
+}
+.input type{
+    margin-top: 1.1rem;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 90%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(225,225,225,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+form#register{
+    margin: 40px;
+}
+label{
+    
+    font-size: 15px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid#ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+}
+.FirstName{
+    line-height: 40px;
+}
+span{
+    color: rgb(243, 13, 13)
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 25px auto;
+}
+.register select{
+    width: 100%;
+    height: 1.8rem;
+}
+.register input[type='text'], input[type='number'], input[type='date']{
+    height: 1.5rem;
+    width: 100%;
+}
+.register input[type='submit']{
+    background-color: rgb(241, 176, 176);
+    width: 200px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(216, 124, 63, 0.911);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+/* .registerradio{
+    height: 1rem;
+    width: 100%;
+    
+} */
+
+input[type='radio']{
+    padding: 30px;
+}
+.input#Submit{
+   width: 200px;
+   padding: 7px;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+
+  

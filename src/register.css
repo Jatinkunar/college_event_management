@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: century;
+}
+body{
+   
+    box-sizing: border-box;
+}
+div.main{
+    width: 400px;
+    top: 20%;
+    left: 50%;
+    margin: auto;
+    bottom: -30%;
+}
+.register h2{
+    text-align: center; 
+}
+.registerinput radio{
+    height: 15px;
+}
+.register{
+    padding: 2rem;
+    width: 26rem;
+}
+.input type{
+    margin-top: 1.1rem;
+}
+div.register{
+    background-color: rgba(0,0,0,0.5);
+    width: 90%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(225,225,225,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+form#register{
+    margin: 40px;
+}
+label{
+    
+    font-size: 15px;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid#ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+}
+.FirstName{
+    line-height: 40px;
+}
+span{
+    color: rgb(243, 13, 13)
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 25px auto;
+}
+.register select{
+    width: 100%;
+    height: 1.8rem;
+}
+.register input[type='text'], input[type='number'], input[type='date']{
+    height: 1.5rem;
+    width: 100%;
+}
+.register input[type='submit']{
+    background-color: rgb(241, 176, 176);
+    width: 200px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(216, 124, 63, 0.911);
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    font-size: 16px;
+}
+/* .registerradio{
+    height: 1rem;
+    width: 100%;
+    
+} */
+
+input[type='radio']{
+    padding: 30px;
+}
+.input#Submit{
+   width: 200px;
+   padding: 7px;
+   font-size: 50px;
+   font-weight: 600;
+}
+.back{
+ 
+  width: 100%;
+  background-image: linear-gradient(rgba(5, 11, 35, 0.7),rgba(4,9,30,0.7));
+
+  background-size: 40%; 
+  
+}
